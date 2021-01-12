@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "gulp"
   },
   "repository": {
     "type": "git",
@@ -16,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/lucas-castro-developer/cod3r-typescript-gulp-integration/issues"
   },
-  "homepage": "https://github.com/lucas-castro-developer/cod3r-typescript-gulp-integration#readme"
+  "homepage": "https://github.com/lucas-castro-developer/cod3r-typescript-gulp-integration#readme",
+  "devDependencies": {
+    "browserify": "^17.0.0",
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "tsify": "^5.0.2",
+    "typescript": "^4.1.3",
+    "vinyl-source-stream": "^2.0.0"
+  }
 }
